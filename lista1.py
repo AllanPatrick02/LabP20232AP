@@ -57,24 +57,42 @@ def q08():
 #9. Faça um programa que leia um número real e imprima ¼ deste número.
 def q09():
     numero = float(input('Digite um Número: '))
-    print(numero)
+    print(numero/4)
 
 #10. Faça um programa que leia três números reais e calcule a
 #    média aritmética destes números. Ao final, o programa deve
 #    imprimir o resultado do cálculo.
+def q10():
+    numero = float(input('digite um número: '))
+    numero1 = float(input('digite outro número: '))
+    numero2 = float(input('digite mais um número: '))
+    print((numero+numero1+numero2)/3)
 
 #11. Faça um programa que leia dois números reais e calcule as
 #    quatro operações básicas entre estes dois números, adição,
 #    subtração,multiplicação e divisão. Ao final, o programa
 #    deve imprimir os resultados dos cálculos.
+def q11():
+    numero = float(input('Digite Um Número Qualquer: '))
+    numero1 = float(input('Digite Outro Número Qualquer: '))
+    print(f'Adição: {numero} + {numero1} = {numero+numero1}')
+    print(f'Subitração: {numero} - {numero1} = {numero-numero1}')
+    print(f'Multiplicação: {numero} * {numero1} = {numero*numero1}')
+    print(f'Divisão: {numero} / {numero1} = {numero/numero1}')
 
 #12. Faça um programa que leia um número real e calcule o
 #    quadrado deste número. Ao final, o programa deve
 #    imprimir o resultado do cálculo.
+def q12():
+    numero = float(input('Digite Um Número Qualquer: '))
+    print(f'{numero} * {numero} = {numero*numero}')  
 
 #13. Faça um programa que leia o saldo de uma conta poupança e
 #    imprima o novo saldo, considerando um reajuste de 2%.
-
+def q13():
+    saldo = float(input('Digite o saldo da poupança: '))
+    print(f'Novo saldo: {(saldo*2)/100}')
+    
 #14. Faça um programa que leia a base e a altura de um retângulo
 #    e imprima o perímetro (base + altura) e a área (base * altura).
 
@@ -116,3 +134,4 @@ def q09():
 #20. Faça um programa que efetue a apresentação do valor da conversão
 #    em real (R$) de um valor lido em dólar (US$). Para isso, será
 #    necessário também ler o valor da cotação do dólar.
+
