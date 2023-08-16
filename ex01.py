@@ -92,8 +92,8 @@ def q12():
 #13. Faça um programa que leia o saldo de uma conta poupança e
 #    imprima o novo saldo, considerando um reajuste de 2%.
 def q13():
-    saldo = float(input('Digite o saldo da poupança: '))
-    print(f'Novo saldo: {(saldo*2)/100}')
+    saldo = float(input('Saldo R$: '))
+    print(f'Saldo com reajuste de 2% = R$ {saldo*1.02}')
     
 #14. Faça um programa que leia a base e a altura de um retângulo
 #    e imprima o perímetro (base + altura) e a área (base * altura).
