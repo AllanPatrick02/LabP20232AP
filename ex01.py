@@ -28,8 +28,6 @@ def q05():
     print(f'Número1 : {numero}')
     print(f'Número2 : {numero2}')
 
-q05()
-
 #6. Faça um programa que leia um número inteiro e imprima o seu
 #   antecessor e o seu sucessor.
 def q06():

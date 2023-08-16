@@ -8,6 +8,11 @@ TODAY = datetime.now()
 
 #1. Faça um programa que leia dois valores numéricos inteiros e efetue
 #   a adição, caso o resultado seja maior que 10, apresentá-lo.
+numero = int(input('Escreva um Número: '))
+numero1 = int(input('Escreva Mais um Número: '))
+print(f'')
+
+
 
 #2. Faça um programa que leia dois valores inteiros e efetue a adição.
 #   Caso o valor somado seja maior que 20, este deverá ser apresentado
