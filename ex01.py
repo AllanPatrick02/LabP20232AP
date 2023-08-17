@@ -77,7 +77,7 @@ def q11():
     numero1 = float(input('Digite Outro Número Qualquer: '))
     print(f'Adição: {numero} + {numero1} = {numero+numero1}')
     print(f'Subitração: {numero} - {numero1} = {numero-numero1}')
-    print(f'Multiplicação: {numero} * {numero1} = {numero*numero1}')
+    print(f'Multiplicação: {numero} x {numero1} = {numero*numero1}')
     print(f'Divisão: {numero} / {numero1} = {numero/numero1}')
 
 #12. Faça um programa que leia um número real e calcule o
