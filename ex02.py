@@ -11,7 +11,7 @@ TODAY = datetime.now()
 def q01():
     numero = int(input('Escreva um Número: '))
     numero1 = int(input('Escreva Mais um Número: '))
-    print(f'')
+    print
 
 
 
@@ -29,10 +29,14 @@ def q02():
     else:
         print (f'Resultado é {adicao-5}')
 
-q02()
-
 #3. Faça um programa que leia um número e imprima uma das duas mensagens:
 #   "É múltiplo de 3"ou "Não é múltiplo de 3".
+
+def q03():
+    num1 = int(input('Escreva Um Número: '))
+    
+    
+
 
 #4. Faça um programa que leia um número e informe se ele é ou não divisível por 5.
 
