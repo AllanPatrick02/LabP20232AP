@@ -92,24 +92,49 @@ def q12():
 def q13():
     saldo = float(input('Saldo R$: '))
     print(f'Saldo com reajuste de 2% = R$ {saldo*1.02}')
-    
+
 #14. Faça um programa que leia a base e a altura de um retângulo
 #    e imprima o perímetro (base + altura) e a área (base * altura).
+
+def q14():
+    base = float(input('Escreva o comprimento da base do triângulo: '))
+    altura = float(input('Escreva o comprimento da altura do triângulo: '))
+
+    print(f'Perimetro do Triângulo: {base+altura}cm²')
+    print(f'Área do Triângulo: {base*altura}cm²')
 
 #15. Faça um programa que leia o valor de um produto, o percentual
 #    do desconto desejado e imprima o valor do desconto e o valor
 #    do produto subtraindo o desconto.
+
+def q15():
+    valor = float(input('Insira o valor do produto: '))
+    porcento = float(input('Insira a porcentagem de desconto: '))
+    desconto = (valor*(porcento/100))
+
+    print(f'O Produto com {porcento}% de Desconto vai sair por {valor-desconto} R$')
+
 
 #16. Faça um programa que calcule o reajuste do salário de um
 #    funcionário. Para isso, o programa deverá ler o salário atual
 #    do funcionário e ler o percentual de reajuste. Ao final imprimir
 #    o valor do novo salário.
 
+def q16():
+    salario = float(input('Coloque o valor do seu salario: '))
+    reajuste = float(input('Percentual do reajuste: '))
+    porcento = (salario*(reajuste/100))
+    
+    print(f'Seu novo salario com reajuste de {reajuste}% será {salario+porcento} R$')
+
+
 #17. Faça um programa que calcule a conversão entre graus centígrados
 #    e Fahrenheit. Para isso, leia o valor em centígrados e calcule
 #    com base na fórmula a seguir. Após calcular o programa deve
 #    imprimir o resultado da conversão.
 #    F = (9 x C + 160) / 5
+def q17():
+    centígrado
 
 #18. Faça um programa que calcule a quantidade de litros de combustível
 #    consumidos em uma viagem, sabendo-se que o carro tem autonomia de
@@ -134,4 +159,3 @@ def q13():
 #20. Faça um programa que efetue a apresentação do valor da conversão
 #    em real (R$) de um valor lido em dólar (US$). Para isso, será
 #    necessário também ler o valor da cotação do dólar.
-
