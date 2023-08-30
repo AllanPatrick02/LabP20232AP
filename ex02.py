@@ -28,7 +28,7 @@ def q02():
         print (f'Resultado é {adicao+8}')
     else:
         print (f'Resultado é {adicao-5}')
-
+        
 #3. Faça um programa que leia um número e imprima uma das duas mensagens:
 #   "É múltiplo de 3"ou "Não é múltiplo de 3".
 
