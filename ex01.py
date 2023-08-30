@@ -193,6 +193,15 @@ def q17():
 #    Ao final, o programa deverá imprimir a distância percorrida e a
 #    quantidade de litros consumidos na viagem.
 
+def q18():
+
+    T = float(input('Inserir o tempo decorrido na viajem: '))
+    V = float(input('Inserir a velocidade media: '))
+    D = T * V
+    L = D/12
+
+    print (f'Distancia Percorrida: {D} km²')
+    print (f'Litros Consumidos: {L} Litros')
 
 
 #19. Faça um programa que calcule o valor de uma prestação em atraso.
@@ -201,6 +210,17 @@ def q17():
 #    programa deve imprimir o valor da prestação atrasada, o período
 #    de atraso, os juros que serão cobrados pelo período de atraso, o
 #    valor da prestação acrescido dos juros. Considere juros simples.
+
+def q19():
+
+    Pvencida = float (input('Prestação Vencida: '))
+    taxajuros = float (input('Taxa Periodica: '))
+    periodo = float (input('Período do Atraso: '))
+    J = Pvencida*(taxajuros/100)*periodo 
+
+    print (f'valor prestação: \t\t {Pvencida} ')
+    print (f'periodo atraso: \t\t {periodo} ')
+    print (f'juros da prestação em atraso: \t {J} ')
 
 #20. Faça um programa que efetue a apresentação do valor da conversão
 #    em real (R$) de um valor lido em dólar (US$). Para isso, será
