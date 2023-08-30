@@ -8,18 +8,25 @@ TODAY = datetime.now()
 
 #1. Faça um programa que leia dois valores numéricos inteiros e efetue
 #   a adição, caso o resultado seja maior que 10, apresentá-lo.
+
 def q01():
+    
     numero = int(input('Escreva um Número: '))
     numero1 = int(input('Escreva Mais um Número: '))
-    print
-
-
+    adicao = (numero+numero1)
+    
+    if adicao > 10:
+        print (adicao)
+    else:
+        print ('A soma não deu maior que 10')
 
 #2. Faça um programa que leia dois valores inteiros e efetue a adição.
 #   Caso o valor somado seja maior que 20, este deverá ser apresentado
 #   somando-se a ele mais 8, caso o valor somado seja menor ou igual a
 #   20, este deverá ser apresentado subtraindo-se 5.
+
 def q02():
+    
     n1 = int(input('Escreva um Número Inteiro: '))
     n2 = int(input('Escreva Mais um Número Inteiro: '))
     adicao = (n1+n2)
@@ -33,9 +40,14 @@ def q02():
 #   "É múltiplo de 3"ou "Não é múltiplo de 3".
 
 def q03():
+    
     num1 = int(input('Escreva Um Número: '))
-    
-    
+    div = (num1%3)
+
+    if div == 0:
+        print(f'{num1} é múltiplo de 3')
+    else:
+        print(f'{num1} não é múltiplo de 3')
 
 
 #4. Faça um programa que leia um número e informe se ele é ou não divisível por 5.
