@@ -133,8 +133,6 @@ def q16():
 #    com base na fórmula a seguir. Após calcular o programa deve
 #    imprimir o resultado da conversão.
 #    F = (9 x C + 160) / 5
-def q17():
-    centígrado
 
 #18. Faça um programa que calcule a quantidade de litros de combustível
 #    consumidos em uma viagem, sabendo-se que o carro tem autonomia de
