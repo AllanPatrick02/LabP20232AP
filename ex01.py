@@ -215,13 +215,44 @@ def q19():
 
     Pvencida = float (input('Prestação Vencida: '))
     taxajuros = float (input('Taxa Periodica: '))
-    periodo = float (input('Período do Atraso: '))
-    J = Pvencida*(taxajuros/100)*periodo 
+    periodo = int (input('Período do Atraso: '))
+    J = Pvencida*(taxajuros/100)*periodo
+    pagar = (Pvencida+J)
 
-    print (f'valor prestação: \t\t {Pvencida} ')
-    print (f'periodo atraso: \t\t {periodo} ')
-    print (f'juros da prestação em atraso: \t {J} ')
+    print("\nDetalhes da prestação atrasada: ")
+    print (f'valor prestação: \t\t R$ {Pvencida: .2f} ')
+    print (f'periodo atraso: \t\t {periodo} Meses ')
+    print (f'juros da prestação em atraso: \t R$ {J: .2f} ')
+    print (f'Total a pagar:\t\t\t R$ {pagar: .2f}')
+
 
 #20. Faça um programa que efetue a apresentação do valor da conversão
 #    em real (R$) de um valor lido em dólar (US$). Para isso, será
 #    necessário também ler o valor da cotação do dólar.
+
+def q20():
+
+    print ('\nConverção de Real(R$) em Dólar(US$) ')
+
+    valor = float(input('Inserir valor em Dólar(US$):'))
+    real = (valor*4.93)
+
+    print(f'Valor Convertido em Reais(R$): \t R$ {real: .2f}')
+
+
+
+
+def q19ex():
+    
+    valor_prestacao = float (input ("Digite o valor da prestação vencida: "))
+    taxa_juros = float (input ("Digite a taxa periódica de juros (em decimal): "))
+    periodo_atraso = int(input ("Digite o período de atraso (em meses): "))
+    juros = (valor_prestacao * taxa_juros * periodo_atraso)
+    prestacao_atrasada = valor_prestacao + juros
+
+    print("\nDetalhes da prestação atrasada: ")
+    print (f'valor da prestação atrasada: R$ {prestacao_atrasada:.2f}')
+    print (f'Período de atraso: {periodo_atraso} meses')
+    print (f'Juros cobrados: R$ {juros:.2f}')
+    print (f'valor total a pagar: R$ {prestacao_atrasada:.2f} ')
+
